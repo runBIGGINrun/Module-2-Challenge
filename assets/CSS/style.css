@@ -95,22 +95,3 @@ ul li a {
 }
 
 
-/* Create three unequal columns that floats next to each other */
-.column-right{
-    float: right;
-    padding: 10px;
-  }
-  
-  
-  /* Middle column */
-  .column-left {
-    
-    width: 25%;
-    
-  }
-  .column-right {
-    width: 75%;
-    float: right;
-    padding: 10px;
-  }
-
