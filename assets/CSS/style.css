@@ -14,7 +14,6 @@ main{
     flex-direction: column;
     margin: 0 8vw;
 }
-
 /*----Class Mods-----*/
 .my-name-hdr {
     font-size: 4vw;
@@ -22,7 +21,6 @@ main{
     color: rgb(48, 48, 48);
     background-color: #7ebdb7;
     border-radius: 15%;
-
 }
 
 .profile-section{
@@ -81,21 +79,73 @@ main{
     position: relative;
     padding: .3vw .75vw;
     border-radius: 15%;
-
 }  
 
-.section-container {
-    
+.section-container{
+    display: flex;
+    margin: 2vw 0;
+    color: rgb(48, 48, 48);
+}
+
+.main-section-content{
+    display: flex;
+    flex-wrap: wrap;
+    border-left: .3vw solid #303030;
+    width: 80%;
+    /*--flex rules--*/
+    flex-direction: column;
 }
 
 
+.main-section-hdr{
+    display: flex;
+    font-size: 3vw;
+    width: 20%;
+    margin: 0 1vw 0 0;
+    /*--flex rules--*/
+    flex-direction: column;
+    align-items: end;
+}
+
+.main-large-img img{
+    height: 62vw;
+    width: 62vw;
+    margin: 0 0 0 2.5vw;
+    border: .3vw solid rgb(48, 48, 48);  
+    filter: grayscale(70%); 
+    transition: .3s filter linear;
+}
+
+.main-large-img img:hover{
+    transition: .3s filter linear;
+    filter: grayscale(0%);
+}
+
+.main-small-container {  
+    margin: 0 0 0 2.5vw;
+    display: flex;
+    /*--flex rules--*/
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-small-container img{
+    height: 15vw;
+    width: 30vw;
+    margin: 1vw 0;
+    border: .3vw solid rgb(21, 142, 182); 
+    filter: grayscale(70%); 
+    transition: .3s filter linear;
+}
+
+.main-small-container img:hover{
+    transition: .3s filter linear;
+    filter: grayscale(0%);
 
 /*-----Specific Mods-----*/
-ul li a {
-    color: #7ebdb7;
+.hdr-nav-list li a{
+    color: #eb127752;
     text-decoration: none;
     padding: 0 .6vw .5vw;
-    border-bottom: 4px  solid #7ebdb7;
+    border-bottom: 4px  solid #7ebdb7;   
 }
-
-
