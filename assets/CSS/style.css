@@ -5,13 +5,13 @@ h1 {
 }
 
 /*----Class Mods-----*/
-.my-name-hdr{
+.my-name-hdr {
     font-size: 4vw;
     padding: .2% 1% .2% 5.5%;
     color: rgb(48, 48, 48);
     background-color: #7ebdb7;
 }
-.hdr-section{
+.hdr-section {
     height: 6.7vw;
     display: flex;
     background-color: rgb(48, 48, 48);
@@ -21,14 +21,14 @@ h1 {
     align-items: center;
 }
 
-.hdr-banner-img{
+.hdr-banner-img {
     width: 100%;
     height: 18vw;
     margin: 0 0 -6vw 0;
 
 }
 
-.hdr-nav-list{
+.hdr-nav-list {
     font-size: 2vw;
     margin-right: 3vw;
     width: 38%;
@@ -38,7 +38,7 @@ h1 {
     justify-content: space-evenly;
 }
 
-.subtitle-container{
+.subtitle-container {
     display: flex; 
     justify-content: end;
     margin: 0 0 5vw;
@@ -52,22 +52,39 @@ h1 {
     margin: 0 3vw 2vw 67%;
     position: relative;
     padding: .3vw .75vw;
-}   
+}  
 
-
-.example-box{
-    padding: 20px 40px;
-    background-color: #7ebdb7;
+.section-container {
     
 }
 
+
+
 /*-----Specific Mods-----*/
-ul li a{
+ul li a {
     color: #7ebdb7;
     text-decoration: none;
     padding: 0 .6vw .5vw;
     border-bottom: 4px  solid #7ebdb7;
-    
 }
 
+
+/* Create three unequal columns that floats next to each other */
+.column-right{
+    float: right;
+    padding: 10px;
+  }
+  
+  
+  /* Middle column */
+  .column-left {
+    
+    width: 25%;
+    
+  }
+  .column-right {
+    width: 75%;
+    float: right;
+    padding: 10px;
+  }
 
