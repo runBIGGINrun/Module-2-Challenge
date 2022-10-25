@@ -22,6 +22,21 @@ main{
     color: rgb(48, 48, 48);
     background-color: #7ebdb7;
 }
+
+.profile-section{
+    position: absolute;
+}
+
+.profile-picture{
+    position: relative;
+    height: 12vw;
+    width: 10vw;
+    border: solid .5vw white;
+    border-radius: 50%;
+    top: 3vw;
+    left: 10vw;
+}
+
 .hdr-section {
     height: 6.7vw;
     display: flex;
