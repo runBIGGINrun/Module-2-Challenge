@@ -19,7 +19,7 @@ I WANT to view a potential employee's deployed portfolio of work samples
 * **THEN I** am presented with a responsive layout that adapts to my viewport
 ## Application Screenshot
 
-
+![](./assets/images/portfolio%20mock-up.png)
 
 
 ## Live URL
