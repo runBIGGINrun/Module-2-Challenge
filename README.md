@@ -24,4 +24,3 @@ I WANT to view a potential employee's deployed portfolio of work samples
 
 ## Live URL
 * **https://runbigginrun.github.io/Neil-Turners-Portfolio/**
-
